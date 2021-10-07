@@ -20,6 +20,10 @@ header nav ul{
     display:flex;
     flex-wrap:wrap;
     flex-direction: row;
+    position:relative;
+    right: -10px;
+    bottom:-6px;
+
     
    
     
