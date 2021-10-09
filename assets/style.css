@@ -36,21 +36,14 @@ header nav ul {
   flex-direction: row;
   position: relative;
   right: -10px;
-  bottom: -6px;
+  bottom: -9px;
+  background: rgb(87, 91, 92);
 }
 
-/*header p {
-  margin: 25px;
-  font-size: 50px;
-  padding: 2px;
-  font-family: "Times New Roman", Times, serif;
-}
-*/
 header nav ul li a {
-  border: solid black 1px;
   padding-left: 3px;
   padding-right: 3px;
-  background: rgb(87, 91, 92);
+
   font-size: 30px;
   text-decoration: none;
 }
@@ -89,4 +82,9 @@ button {
 main footer {
   margin: 10px;
   padding: 5px;
+}
+li:hover {
+  background-color: white;
+  color: black;
+  border: solid black 2px;
 }
