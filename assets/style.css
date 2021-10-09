@@ -1,3 +1,15 @@
+h1 {
+  margin: 25px;
+  font-size: 48px;
+  padding: 2px;
+  font-family: "Times New Roman", Times, serif;
+}
+h2 {
+  font-size: 33px;
+  font-family: "Times New Roman", Times, serif;
+  padding-bottom: 2px;
+}
+
 body {
   background-color: lightgray;
 }
@@ -8,8 +20,8 @@ header {
   margin-bottom: 20px;
   display: flex;
   flex-direction: row;
+
   justify-content: space-between;
-  position: sticky;
 }
 
 header nav {
@@ -27,18 +39,18 @@ header nav ul {
   bottom: -6px;
 }
 
-header p {
+/*header p {
   margin: 25px;
   font-size: 50px;
   padding: 2px;
   font-family: "Times New Roman", Times, serif;
 }
-
+*/
 header nav ul li a {
   border: solid black 1px;
   padding-left: 3px;
   padding-right: 3px;
-  background: lightblue;
+  background: rgb(87, 91, 92);
   font-size: 30px;
   text-decoration: none;
 }
@@ -46,22 +58,35 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+
   height: 100vh;
 }
 .info {
-  align-content: flex-end;
-  margin: 0 auto;
+  margin-top: 125px;
+  flex-direction: column;
 }
 
 .info #picture {
   margin: 0 auto;
   max-height: 300px;
   max-width: 300px;
+  border: 5px solid black;
 }
+
 .section1 {
   height: 500px;
 }
+
 .contact {
   display: flex;
   flex-direction: column;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+button {
+  width: 50px;
+}
+main footer {
+  margin: 10px;
+  padding: 5px;
 }
