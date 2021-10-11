@@ -45,6 +45,9 @@ header nav ul li a {
   font-size: 30px;
   text-decoration: none;
 }
+header nav ul li a:visited {
+  color: black;
+}
 header nav ul li {
   border-top: solid black 2px;
   border-left: solid black 2px;
