@@ -1,3 +1,5 @@
+/* only image I had on this laptop, will change when I get a nicer one*/
+
 h1 {
   margin: 25px;
   font-size: 48px;
@@ -74,6 +76,9 @@ main footer {
   max-height: 300px;
   max-width: 300px;
   border: 5px solid black;
+}
+.info h2 {
+  text-align: center;
 }
 
 .section1 {
