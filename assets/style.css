@@ -133,3 +133,13 @@ li:hover {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+@media only screen and (max-width: 720px) {
+  header nav ul {
+    display: block;
+  }
+}
+@media only screen and (max-width: 500px) {
+  header nav ul {
+    display: block;
+  }
+}
