@@ -79,6 +79,7 @@ main {
   max-height: 300px;
   max-width: 300px;
   border: 5px solid black;
+  box-shadow: 10px 5px 5px rgb(62, 60, 60);
 }
 .info h2 {
   text-align: center;
@@ -95,6 +96,7 @@ main {
   margin-bottom: 50px;
   border: solid black 2px;
   align-items: center;
+  box-shadow: 10px 5px 5px rgb(62, 60, 60);
 }
 button {
   width: 50px;
@@ -125,6 +127,7 @@ li:hover {
   height: 500px;
   width: 300px;
   border: 5px solid black;
+  box-shadow: 10px 5px 5px rgb(62, 60, 60);
 }
 .SectionTwo ul {
   display: flex;
@@ -135,6 +138,12 @@ li:hover {
 .SectionTwo ul li {
   margin-top: 10px;
   margin-bottom: 10px;
+}
+.SectionOne #paragraphs {
+  margin-left: 5px;
+}
+.SectionTwo h2 {
+  margin-left: 5px;
 }
 @media only screen and (max-width: 720px) {
   header nav ul {
